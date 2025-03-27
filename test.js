@@ -12,3 +12,4 @@ assert(cc.countries().length === 266);
 assert(cc.numbers().length === 189);
 assert(cc.numbers()[0] === '784');
 assert(cc.data.length == 189);
+assert(cc.data.filter((currency) => currency.active).length == 179);

@@ -5,6 +5,7 @@ declare module "currency-codes" {
     digits: number;
     currency: string;
     countries: string[];
+    active: boolean;
   }
 
   export function code(code: string): CurrencyCodeRecord | undefined;

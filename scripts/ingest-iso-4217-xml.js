@@ -1,5 +1,6 @@
 const fs = require('fs');
 const xml2js = require('xml2js');
+const prevCurrencies = require("../data");
 
 require('@gouch/to-title-case');
 
@@ -13,7 +14,8 @@ function ingestEntry(entry) {
     number: entry.CcyNbr && entry.CcyNbr._,
     digits: (entry.CcyMnrUnts && parseInt(entry.CcyMnrUnts._)) || 0,
     currency: entry.CcyNm && entry.CcyNm._,
-    countries: (entry.CtryNm && entry.CtryNm._ && [entry.CtryNm._.toLowerCase().toTitleCase()]) || []
+    countries: (entry.CtryNm && entry.CtryNm._ && [entry.CtryNm._.toLowerCase().toTitleCase()]) || [],
+    active: true
   };
 }
 
@@ -35,10 +37,7 @@ function ingestEntries(data) {
     .map(ingestEntry)
     .reduce(indexByCode, {});
 
-  const currencies = Object.values(currenciesByCode).filter(function (c) { return !!c.code; });
-  currencies.sort(compareCurrencyCode);
-
-  return currencies;
+  return Object.values(currenciesByCode).filter(function (c) { return !!c.code; });;
 }
 
 function ingestPublishDate(data) {
@@ -66,7 +65,21 @@ fs.readFile(input, function(err, data) {
       failOnError(err);
 
       const publishDate = ingestPublishDate(result);
-      const countries = ingestEntries(result);
+      const nextCurrencies = ingestEntries(result);
+      const inactiveCurrencies = prevCurrencies.filter(
+        (prevCurrency) =>
+          !nextCurrencies.some(
+            (nextCurrency) => prevCurrency.code === nextCurrency.code
+          )
+      );
+      const currencies = nextCurrencies
+        .concat(
+          inactiveCurrencies.map((currency) => ({
+            ...currency,
+            active: false,
+          }))
+        )
+        .sort(compareCurrencyCode);
 
       const preamble = '/*\n' +
         '\tFollows ISO 4217, https://www.iso.org/iso-4217-currency-codes.html\n' +
@@ -75,7 +88,7 @@ fs.readFile(input, function(err, data) {
         '*/\n\n';
 
       const dataContent = preamble +
-        'module.exports = ' + JSON.stringify(countries, null, '  ') + ';';
+        'module.exports = ' + JSON.stringify(currencies, null, '  ') + ';';
 
       const publishDateContent = preamble +
         'module.exports = ' + JSON.stringify(publishDate, null, '  ') + ';';
