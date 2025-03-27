@@ -32,9 +32,12 @@ jobs:
           git commit -m "Update ISO 4217 data" || echo "No changes to commit"
 
       - name: Push changes and create PR
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v7
         with:
           branch: update-iso-4217-data
           title: "Update ISO 4217 Data"
-          body: "This PR updates the ISO 4217 data by running the `iso` script."
+          body: |
+            This PR updates the ISO 4217 data by running the `iso` script.
+
+            Please review and merge this PR if everything looks good.
           commit-message: "chore: update ISO 4217 data"
