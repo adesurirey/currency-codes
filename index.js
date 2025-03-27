@@ -1,52 +1,79 @@
-var first = require('first-match');
-var nub = require('nub');
-var data = require('./data');
-var publishDate = require('./iso-4217-publish-date');
+const first = require("first-match");
+const nub = require("nub");
+const allCurrencies = require("./data");
+const publishDate = require("./iso-4217-publish-date");
 
-var code = function(code) {
+const DEFAULT_OPTIONS = {
+  includeDeprecated: false,
+};
+
+const activeCurrencies = allCurrencies.filter((currency) => currency.active);
+
+const data = function (includeDeprecated = false) {
+  if (includeDeprecated) {
+    return allCurrencies;
+  }
+  return activeCurrencies;
+};
+const code = function (code, options = DEFAULT_OPTIONS) {
   code = code.toUpperCase();
+  const currencies = data(options.includeDeprecated);
 
-  return first(data, function(c) {
+  return first(currencies, function (c) {
     return c.code === code;
   });
 };
-var country = function(country) {
+const country = function (country, options = DEFAULT_OPTIONS) {
   country = country.toLowerCase();
+  const currencies = data(options.includeDeprecated);
 
-  return data.filter(function(c) {
-    return (c.countries.map(function(c) { return c.toLowerCase(); } ) || []).indexOf(country) > -1;
+  return currencies.filter(function (c) {
+    return (
+      (
+        c.countries.map(function (c) {
+          return c.toLowerCase();
+        }) || []
+      ).indexOf(country) > -1
+    );
   });
 };
-var number = function(number) {
-  return first(data, function(c) {
+const number = function (number, options = DEFAULT_OPTIONS) {
+  const currencies = data(options.includeDeprecated);
+
+  return first(currencies, function (c) {
     return c.number === String(number);
   });
 };
-var codes = function() {
-  return data.map(function(c) {
+const codes = function (options = DEFAULT_OPTIONS) {
+  const currencies = data(options.includeDeprecated);
+
+  return currencies.map(function (c) {
     return c.code;
   });
 };
-var numbers = function() {
-  var items = data.map(function(c) {
+const numbers = function (options = DEFAULT_OPTIONS) {
+  const currencies = data(options.includeDeprecated);
+  const items = currencies.map(function (c) {
     return c.number;
   });
 
   // handle cases where number is undefined (e.g. XFU and XBT)
-  return items.filter(function(n) {
+  return items.filter(function (n) {
     if (n) {
       return n;
     }
   });
 };
-var countries = function() {
-  var m = data
-    .filter(function(c) {
+const countries = function (options = DEFAULT_OPTIONS) {
+  const currencies = data(options.includeDeprecated);
+  const m = currencies
+    .filter(function (c) {
       return c.countries;
     })
-    .map(function(c) {
+    .map(function (c) {
       return c.countries;
     });
+
   return nub(Array.prototype.concat.apply([], m));
 };
 
@@ -56,5 +83,5 @@ exports.number = number;
 exports.codes = codes;
 exports.numbers = numbers;
 exports.countries = countries;
-exports.publishDate = publishDate;
 exports.data = data;
+exports.publishDate = publishDate;

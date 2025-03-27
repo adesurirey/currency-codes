@@ -21,7 +21,8 @@ console.log(cc.code('EUR'));
 		'france', 'germany', 'greece', 'ireland', 'italy', 'kosovo',
 		'luxembourg', 'malta', 'monaco', 'montenegro', 'netherlands',
 		'portugal', 'san marino', 'slovakia', 'slovenia', 'spain',
-		'vatican city' ]
+		'vatican city' ],
+	active: true
 }
 */
 ```
@@ -38,7 +39,8 @@ console.log(cc.number(967));
 	number: 967,
 	digits: 2,
 	currency: 'Zambian kwacha',
-	countries: [ 'zambia' ] }
+	countries: [ 'zambia' ] },
+	active: true
 */
 ```
 
@@ -55,13 +57,15 @@ console.log(cc.country('colombia'));
 		number: 170,
 		digits: 2,
 		currency: 'Colombian peso',
-		countries: [ 'colombia' ]
+		countries: [ 'colombia' ],
+		active: true
 	}, {
 		code: 'COU',
 		number: 970,
 		digits: 2,
 		currency: 'Unidad de Valor Real',
-		countries: [ 'colombia' ]
+		countries: [ 'colombia' ],
+		active: true
 	}
 ]
 */
@@ -116,11 +120,11 @@ console.log(cc.countries());
 */
 ```
 
-## data
+## data()
 
 ``` js
-var data = require('currency-codes/data');
-console.log(data);
+var cc = require('currency-codes');
+console.log(cc.data());
 
 /*
 [{
@@ -128,13 +132,15 @@ console.log(data);
 	number: '784',
 	digits: 2,
 	currency: 'United Arab Emirates dirham',
-	countries: ['united arab emirates']
+	countries: ['united arab emirates'],
+	active: true
 }, {
 	code: 'AFN',
 	number: '971',
 	digits: 2,
 	currency: 'Afghan afghani',
-	countries: ['afghanistan']
+	countries: ['afghanistan'],
+	active: true
 }, {
 	...
 */
@@ -149,6 +155,26 @@ console.log(cc.publishDate);
 
 /*
 2024-06-25
+*/
+```
+
+## Using deprecated currencies
+
+By default, the library only returns active currencies. To include deprecated currencies, set the `includeDeprecated` option to `true`.
+
+``` js
+var cc = require('currency-codes');
+console.log(cc.code('ZWL', { includeDeprecated: true }));
+
+/*
+{
+	code: 'ZWL',
+	number: 932,
+	digits: 2,
+	currency: 'Zimbabwean dollar',
+	countries: [ 'zimbabwe' ],
+	active: false
+}
 */
 ```
 
