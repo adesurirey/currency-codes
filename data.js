@@ -239,6 +239,15 @@ module.exports = [
     ]
   },
   {
+    "code": "BYR",
+    "number": "974",
+    "digits": 0,
+    "currency": "Belarusian ruble",
+    "countries": [
+      "belarus"
+    ],
+  },
+  {
     "code": "BZD",
     "number": "084",
     "digits": 2,
@@ -604,6 +613,15 @@ module.exports = [
     ]
   },
   {
+    "code": "HRK",
+    "number": "191",
+    "digits": 2,
+    "currency": "Kuna",
+    "countries": [
+      "Croatia"
+    ]
+  },
+  {
     "code": "HTG",
     "number": "332",
     "digits": 2,
@@ -812,6 +830,15 @@ module.exports = [
     ]
   },
   {
+    "code": "LTL",
+    "number": "440",
+    "digits": 2,
+    "currency": "Lithuanian litas",
+    "countries": [
+      "lithuania"
+    ],
+  },
+  {
     "code": "LRD",
     "number": "430",
     "digits": 2,
@@ -828,6 +855,15 @@ module.exports = [
     "countries": [
       "Lesotho"
     ]
+  },
+  {
+    "code": "LVL",
+    "number": "428",
+    "digits": 2,
+    "currency": "Latvian lats",
+    "countries": [
+      "latvia"
+    ],
   },
   {
     "code": "LYD",
@@ -901,6 +937,15 @@ module.exports = [
     "countries": [
       "Macao"
     ]
+  },
+  {
+    "code": "MRO",
+    "number": "478",
+    "digits": 0,
+    "currency": "*[8]\tMauritanian ouguiya",
+    "countries": [
+      "mauritania"
+    ],
   },
   {
     "code": "MRU",
@@ -1224,6 +1269,15 @@ module.exports = [
     ]
   },
   {
+    "code": "SLL",
+    "number": "694",
+    "digits": 2,
+    "currency": "Leone",
+    "countries": [
+      "Sierra Leone"
+    ]
+  },
+  {
     "code": "SOS",
     "number": "706",
     "digits": 2,
@@ -1249,6 +1303,15 @@ module.exports = [
     "countries": [
       "South Sudan"
     ]
+  },
+  {
+    "code": "STD",
+    "number": "678",
+    "digits": 0,
+    "currency": "São Tomé and Príncipe dobra",
+    "countries": [
+      "são tomé and príncipe"
+    ],
   },
   {
     "code": "STN",
@@ -1422,6 +1485,15 @@ module.exports = [
     ]
   },
   {
+    "code": "USS",
+    "number": "998",
+    "digits": 2,
+    "currency": "United States dollar",
+    "countries": [
+      "united states"
+    ],
+  },
+  {
     "code": "UYI",
     "number": "940",
     "digits": 0,
@@ -1462,6 +1534,15 @@ module.exports = [
     "number": "926",
     "digits": 2,
     "currency": "Bolívar Soberano",
+    "countries": [
+      "Venezuela (Bolivarian Republic Of)"
+    ]
+  },
+  {
+    "code": "VEF",
+    "number": "937",
+    "digits": 2,
+    "currency": "Bolívar",
     "countries": [
       "Venezuela (Bolivarian Republic Of)"
     ]
@@ -1710,6 +1791,15 @@ module.exports = [
     "number": "924",
     "digits": 2,
     "currency": "Zimbabwe Gold",
+    "countries": [
+      "Zimbabwe"
+    ]
+  },
+  {
+    "code": "ZWL",
+    "number": "932",
+    "digits": 2,
+    "currency": "Zimbabwe Dollar",
     "countries": [
       "Zimbabwe"
     ]
