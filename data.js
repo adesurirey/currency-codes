@@ -1,7 +1,7 @@
 /*
 	Follows ISO 4217, https://www.iso.org/iso-4217-currency-codes.html
 	See https://www.currency-iso.org/dam/downloads/lists/list_one.xml
-	Data last updated 2024-06-25
+	Data last updated 2025-02-04
 */
 
 module.exports = [
@@ -345,15 +345,6 @@ module.exports = [
     "currency": "Costa Rican Colon",
     "countries": [
       "Costa Rica"
-    ]
-  },
-  {
-    "code": "CUC",
-    "number": "931",
-    "digits": 2,
-    "currency": "Peso Convertible",
-    "countries": [
-      "Cuba"
     ]
   },
   {
