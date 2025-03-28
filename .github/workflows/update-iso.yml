@@ -33,4 +33,7 @@ jobs:
           body: |
             This PR updates the ISO 4217 data by running the `iso` script.
 
-            Please review and merge this PR if everything looks good.
+            Please review and merge it if everything looks good.
+
+            **Todo:**
+            - [ ] Update tests
