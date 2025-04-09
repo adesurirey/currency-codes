@@ -12,7 +12,8 @@ module.exports = [
     "currency": "UAE Dirham",
     "countries": [
       "United Arab Emirates (The)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "AFN",
@@ -21,7 +22,8 @@ module.exports = [
     "currency": "Afghani",
     "countries": [
       "Afghanistan"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "ALL",
@@ -30,7 +32,8 @@ module.exports = [
     "currency": "Lek",
     "countries": [
       "Albania"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "AMD",
@@ -39,7 +42,8 @@ module.exports = [
     "currency": "Armenian Dram",
     "countries": [
       "Armenia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "ANG",
@@ -49,7 +53,8 @@ module.exports = [
     "countries": [
       "Curaçao",
       "Sint Maarten (Dutch Part)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "AOA",
@@ -58,7 +63,8 @@ module.exports = [
     "currency": "Kwanza",
     "countries": [
       "Angola"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "ARS",
@@ -67,7 +73,8 @@ module.exports = [
     "currency": "Argentine Peso",
     "countries": [
       "Argentina"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "AUD",
@@ -83,7 +90,8 @@ module.exports = [
       "Nauru",
       "Norfolk Island",
       "Tuvalu"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "AWG",
@@ -92,7 +100,8 @@ module.exports = [
     "currency": "Aruban Florin",
     "countries": [
       "Aruba"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "AZN",
@@ -101,7 +110,8 @@ module.exports = [
     "currency": "Azerbaijan Manat",
     "countries": [
       "Azerbaijan"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BAM",
@@ -110,7 +120,8 @@ module.exports = [
     "currency": "Convertible Mark",
     "countries": [
       "Bosnia and Herzegovina"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BBD",
@@ -119,7 +130,8 @@ module.exports = [
     "currency": "Barbados Dollar",
     "countries": [
       "Barbados"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BDT",
@@ -128,7 +140,8 @@ module.exports = [
     "currency": "Taka",
     "countries": [
       "Bangladesh"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BGN",
@@ -137,7 +150,8 @@ module.exports = [
     "currency": "Bulgarian Lev",
     "countries": [
       "Bulgaria"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BHD",
@@ -146,7 +160,8 @@ module.exports = [
     "currency": "Bahraini Dinar",
     "countries": [
       "Bahrain"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BIF",
@@ -155,7 +170,8 @@ module.exports = [
     "currency": "Burundi Franc",
     "countries": [
       "Burundi"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BMD",
@@ -164,7 +180,8 @@ module.exports = [
     "currency": "Bermudian Dollar",
     "countries": [
       "Bermuda"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BND",
@@ -173,7 +190,8 @@ module.exports = [
     "currency": "Brunei Dollar",
     "countries": [
       "Brunei Darussalam"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BOB",
@@ -182,7 +200,8 @@ module.exports = [
     "currency": "Boliviano",
     "countries": [
       "Bolivia (Plurinational State Of)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BOV",
@@ -191,7 +210,8 @@ module.exports = [
     "currency": "Mvdol",
     "countries": [
       "Bolivia (Plurinational State Of)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BRL",
@@ -200,7 +220,8 @@ module.exports = [
     "currency": "Brazilian Real",
     "countries": [
       "Brazil"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BSD",
@@ -209,7 +230,8 @@ module.exports = [
     "currency": "Bahamian Dollar",
     "countries": [
       "Bahamas (The)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BTN",
@@ -218,7 +240,8 @@ module.exports = [
     "currency": "Ngultrum",
     "countries": [
       "Bhutan"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BWP",
@@ -227,7 +250,8 @@ module.exports = [
     "currency": "Pula",
     "countries": [
       "Botswana"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "BYN",
@@ -236,7 +260,18 @@ module.exports = [
     "currency": "Belarusian Ruble",
     "countries": [
       "Belarus"
-    ]
+    ],
+    "active": true
+  },
+  {
+    "code": "BYR",
+    "number": "974",
+    "digits": 0,
+    "currency": "Belarusian ruble",
+    "countries": [
+      "belarus"
+    ],
+    "active": false
   },
   {
     "code": "BZD",
@@ -245,7 +280,8 @@ module.exports = [
     "currency": "Belize Dollar",
     "countries": [
       "Belize"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CAD",
@@ -254,7 +290,8 @@ module.exports = [
     "currency": "Canadian Dollar",
     "countries": [
       "Canada"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CDF",
@@ -263,7 +300,8 @@ module.exports = [
     "currency": "Congolese Franc",
     "countries": [
       "Congo (The Democratic Republic of The)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CHE",
@@ -272,7 +310,8 @@ module.exports = [
     "currency": "WIR Euro",
     "countries": [
       "Switzerland"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CHF",
@@ -282,7 +321,8 @@ module.exports = [
     "countries": [
       "Liechtenstein",
       "Switzerland"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CHW",
@@ -291,7 +331,8 @@ module.exports = [
     "currency": "WIR Franc",
     "countries": [
       "Switzerland"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CLF",
@@ -300,7 +341,8 @@ module.exports = [
     "currency": "Unidad de Fomento",
     "countries": [
       "Chile"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CLP",
@@ -309,7 +351,8 @@ module.exports = [
     "currency": "Chilean Peso",
     "countries": [
       "Chile"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CNY",
@@ -318,7 +361,8 @@ module.exports = [
     "currency": "Yuan Renminbi",
     "countries": [
       "China"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "COP",
@@ -327,7 +371,8 @@ module.exports = [
     "currency": "Colombian Peso",
     "countries": [
       "Colombia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "COU",
@@ -336,7 +381,8 @@ module.exports = [
     "currency": "Unidad de Valor Real",
     "countries": [
       "Colombia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CRC",
@@ -345,7 +391,8 @@ module.exports = [
     "currency": "Costa Rican Colon",
     "countries": [
       "Costa Rica"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CUC",
@@ -354,7 +401,8 @@ module.exports = [
     "currency": "Peso Convertible",
     "countries": [
       "Cuba"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CUP",
@@ -363,7 +411,8 @@ module.exports = [
     "currency": "Cuban Peso",
     "countries": [
       "Cuba"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CVE",
@@ -372,7 +421,8 @@ module.exports = [
     "currency": "Cabo Verde Escudo",
     "countries": [
       "Cabo Verde"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "CZK",
@@ -381,7 +431,8 @@ module.exports = [
     "currency": "Czech Koruna",
     "countries": [
       "Czechia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "DJF",
@@ -390,7 +441,8 @@ module.exports = [
     "currency": "Djibouti Franc",
     "countries": [
       "Djibouti"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "DKK",
@@ -401,7 +453,8 @@ module.exports = [
       "Denmark",
       "Faroe Islands (The)",
       "Greenland"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "DOP",
@@ -410,7 +463,8 @@ module.exports = [
     "currency": "Dominican Peso",
     "countries": [
       "Dominican Republic (The)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "DZD",
@@ -419,7 +473,8 @@ module.exports = [
     "currency": "Algerian Dinar",
     "countries": [
       "Algeria"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "EGP",
@@ -428,7 +483,8 @@ module.exports = [
     "currency": "Egyptian Pound",
     "countries": [
       "Egypt"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "ERN",
@@ -437,7 +493,8 @@ module.exports = [
     "currency": "Nakfa",
     "countries": [
       "Eritrea"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "ETB",
@@ -446,7 +503,8 @@ module.exports = [
     "currency": "Ethiopian Birr",
     "countries": [
       "Ethiopia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "EUR",
@@ -490,7 +548,8 @@ module.exports = [
       "Slovakia",
       "Slovenia",
       "Spain"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "FJD",
@@ -499,7 +558,8 @@ module.exports = [
     "currency": "Fiji Dollar",
     "countries": [
       "Fiji"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "FKP",
@@ -508,7 +568,8 @@ module.exports = [
     "currency": "Falkland Islands Pound",
     "countries": [
       "Falkland Islands (The) [Malvinas]"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "GBP",
@@ -520,7 +581,8 @@ module.exports = [
       "Isle of Man",
       "Jersey",
       "United Kingdom of Great Britain and Northern Ireland (The)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "GEL",
@@ -529,7 +591,8 @@ module.exports = [
     "currency": "Lari",
     "countries": [
       "Georgia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "GHS",
@@ -538,7 +601,8 @@ module.exports = [
     "currency": "Ghana Cedi",
     "countries": [
       "Ghana"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "GIP",
@@ -547,7 +611,8 @@ module.exports = [
     "currency": "Gibraltar Pound",
     "countries": [
       "Gibraltar"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "GMD",
@@ -556,7 +621,8 @@ module.exports = [
     "currency": "Dalasi",
     "countries": [
       "Gambia (The)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "GNF",
@@ -565,7 +631,8 @@ module.exports = [
     "currency": "Guinean Franc",
     "countries": [
       "Guinea"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "GTQ",
@@ -574,7 +641,8 @@ module.exports = [
     "currency": "Quetzal",
     "countries": [
       "Guatemala"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "GYD",
@@ -583,7 +651,8 @@ module.exports = [
     "currency": "Guyana Dollar",
     "countries": [
       "Guyana"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "HKD",
@@ -592,7 +661,8 @@ module.exports = [
     "currency": "Hong Kong Dollar",
     "countries": [
       "Hong Kong"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "HNL",
@@ -601,7 +671,18 @@ module.exports = [
     "currency": "Lempira",
     "countries": [
       "Honduras"
-    ]
+    ],
+    "active": true
+  },
+  {
+    "code": "HRK",
+    "number": "191",
+    "digits": 2,
+    "currency": "Kuna",
+    "countries": [
+      "Croatia"
+    ],
+    "active": false
   },
   {
     "code": "HTG",
@@ -610,7 +691,8 @@ module.exports = [
     "currency": "Gourde",
     "countries": [
       "Haiti"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "HUF",
@@ -619,7 +701,8 @@ module.exports = [
     "currency": "Forint",
     "countries": [
       "Hungary"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "IDR",
@@ -628,7 +711,8 @@ module.exports = [
     "currency": "Rupiah",
     "countries": [
       "Indonesia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "ILS",
@@ -637,7 +721,8 @@ module.exports = [
     "currency": "New Israeli Sheqel",
     "countries": [
       "Israel"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "INR",
@@ -647,7 +732,8 @@ module.exports = [
     "countries": [
       "Bhutan",
       "India"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "IQD",
@@ -656,7 +742,8 @@ module.exports = [
     "currency": "Iraqi Dinar",
     "countries": [
       "Iraq"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "IRR",
@@ -665,7 +752,8 @@ module.exports = [
     "currency": "Iranian Rial",
     "countries": [
       "Iran (Islamic Republic Of)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "ISK",
@@ -674,7 +762,8 @@ module.exports = [
     "currency": "Iceland Krona",
     "countries": [
       "Iceland"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "JMD",
@@ -683,7 +772,8 @@ module.exports = [
     "currency": "Jamaican Dollar",
     "countries": [
       "Jamaica"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "JOD",
@@ -692,7 +782,8 @@ module.exports = [
     "currency": "Jordanian Dinar",
     "countries": [
       "Jordan"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "JPY",
@@ -701,7 +792,8 @@ module.exports = [
     "currency": "Yen",
     "countries": [
       "Japan"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "KES",
@@ -710,7 +802,8 @@ module.exports = [
     "currency": "Kenyan Shilling",
     "countries": [
       "Kenya"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "KGS",
@@ -719,7 +812,8 @@ module.exports = [
     "currency": "Som",
     "countries": [
       "Kyrgyzstan"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "KHR",
@@ -728,7 +822,8 @@ module.exports = [
     "currency": "Riel",
     "countries": [
       "Cambodia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "KMF",
@@ -737,7 +832,8 @@ module.exports = [
     "currency": "Comorian Franc ",
     "countries": [
       "Comoros (The)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "KPW",
@@ -746,7 +842,8 @@ module.exports = [
     "currency": "North Korean Won",
     "countries": [
       "Korea (The Democratic People’s Republic Of)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "KRW",
@@ -755,7 +852,8 @@ module.exports = [
     "currency": "Won",
     "countries": [
       "Korea (The Republic Of)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "KWD",
@@ -764,7 +862,8 @@ module.exports = [
     "currency": "Kuwaiti Dinar",
     "countries": [
       "Kuwait"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "KYD",
@@ -773,7 +872,8 @@ module.exports = [
     "currency": "Cayman Islands Dollar",
     "countries": [
       "Cayman Islands (The)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "KZT",
@@ -782,7 +882,8 @@ module.exports = [
     "currency": "Tenge",
     "countries": [
       "Kazakhstan"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "LAK",
@@ -791,7 +892,8 @@ module.exports = [
     "currency": "Lao Kip",
     "countries": [
       "Lao People’s Democratic Republic (The)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "LBP",
@@ -800,7 +902,8 @@ module.exports = [
     "currency": "Lebanese Pound",
     "countries": [
       "Lebanon"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "LKR",
@@ -809,7 +912,8 @@ module.exports = [
     "currency": "Sri Lanka Rupee",
     "countries": [
       "Sri Lanka"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "LRD",
@@ -818,7 +922,8 @@ module.exports = [
     "currency": "Liberian Dollar",
     "countries": [
       "Liberia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "LSL",
@@ -827,7 +932,28 @@ module.exports = [
     "currency": "Loti",
     "countries": [
       "Lesotho"
-    ]
+    ],
+    "active": true
+  },
+  {
+    "code": "LTL",
+    "number": "440",
+    "digits": 2,
+    "currency": "Lithuanian litas",
+    "countries": [
+      "lithuania"
+    ],
+    "active": false
+  },
+  {
+    "code": "LVL",
+    "number": "428",
+    "digits": 2,
+    "currency": "Latvian lats",
+    "countries": [
+      "latvia"
+    ],
+    "active": false
   },
   {
     "code": "LYD",
@@ -836,7 +962,8 @@ module.exports = [
     "currency": "Libyan Dinar",
     "countries": [
       "Libya"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MAD",
@@ -846,7 +973,8 @@ module.exports = [
     "countries": [
       "Morocco",
       "Western Sahara"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MDL",
@@ -855,7 +983,8 @@ module.exports = [
     "currency": "Moldovan Leu",
     "countries": [
       "Moldova (The Republic Of)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MGA",
@@ -864,7 +993,8 @@ module.exports = [
     "currency": "Malagasy Ariary",
     "countries": [
       "Madagascar"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MKD",
@@ -873,7 +1003,8 @@ module.exports = [
     "currency": "Denar",
     "countries": [
       "North Macedonia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MMK",
@@ -882,7 +1013,8 @@ module.exports = [
     "currency": "Kyat",
     "countries": [
       "Myanmar"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MNT",
@@ -891,7 +1023,8 @@ module.exports = [
     "currency": "Tugrik",
     "countries": [
       "Mongolia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MOP",
@@ -900,7 +1033,18 @@ module.exports = [
     "currency": "Pataca",
     "countries": [
       "Macao"
-    ]
+    ],
+    "active": true
+  },
+  {
+    "code": "MRO",
+    "number": "478",
+    "digits": 0,
+    "currency": "*[8]\tMauritanian ouguiya",
+    "countries": [
+      "mauritania"
+    ],
+    "active": false
   },
   {
     "code": "MRU",
@@ -909,7 +1053,8 @@ module.exports = [
     "currency": "Ouguiya",
     "countries": [
       "Mauritania"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MUR",
@@ -918,7 +1063,8 @@ module.exports = [
     "currency": "Mauritius Rupee",
     "countries": [
       "Mauritius"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MVR",
@@ -927,7 +1073,8 @@ module.exports = [
     "currency": "Rufiyaa",
     "countries": [
       "Maldives"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MWK",
@@ -936,7 +1083,8 @@ module.exports = [
     "currency": "Malawi Kwacha",
     "countries": [
       "Malawi"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MXN",
@@ -945,7 +1093,8 @@ module.exports = [
     "currency": "Mexican Peso",
     "countries": [
       "Mexico"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MXV",
@@ -954,7 +1103,8 @@ module.exports = [
     "currency": "Mexican Unidad de Inversion (UDI)",
     "countries": [
       "Mexico"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MYR",
@@ -963,7 +1113,8 @@ module.exports = [
     "currency": "Malaysian Ringgit",
     "countries": [
       "Malaysia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "MZN",
@@ -972,7 +1123,8 @@ module.exports = [
     "currency": "Mozambique Metical",
     "countries": [
       "Mozambique"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "NAD",
@@ -981,7 +1133,8 @@ module.exports = [
     "currency": "Namibia Dollar",
     "countries": [
       "Namibia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "NGN",
@@ -990,7 +1143,8 @@ module.exports = [
     "currency": "Naira",
     "countries": [
       "Nigeria"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "NIO",
@@ -999,7 +1153,8 @@ module.exports = [
     "currency": "Cordoba Oro",
     "countries": [
       "Nicaragua"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "NOK",
@@ -1010,7 +1165,8 @@ module.exports = [
       "Bouvet Island",
       "Norway",
       "Svalbard and Jan Mayen"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "NPR",
@@ -1019,7 +1175,8 @@ module.exports = [
     "currency": "Nepalese Rupee",
     "countries": [
       "Nepal"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "NZD",
@@ -1032,7 +1189,8 @@ module.exports = [
       "Niue",
       "Pitcairn",
       "Tokelau"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "OMR",
@@ -1041,7 +1199,8 @@ module.exports = [
     "currency": "Rial Omani",
     "countries": [
       "Oman"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "PAB",
@@ -1050,7 +1209,8 @@ module.exports = [
     "currency": "Balboa",
     "countries": [
       "Panama"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "PEN",
@@ -1059,7 +1219,8 @@ module.exports = [
     "currency": "Sol",
     "countries": [
       "Peru"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "PGK",
@@ -1068,7 +1229,8 @@ module.exports = [
     "currency": "Kina",
     "countries": [
       "Papua New Guinea"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "PHP",
@@ -1077,7 +1239,8 @@ module.exports = [
     "currency": "Philippine Peso",
     "countries": [
       "Philippines (The)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "PKR",
@@ -1086,7 +1249,8 @@ module.exports = [
     "currency": "Pakistan Rupee",
     "countries": [
       "Pakistan"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "PLN",
@@ -1095,7 +1259,8 @@ module.exports = [
     "currency": "Zloty",
     "countries": [
       "Poland"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "PYG",
@@ -1104,7 +1269,8 @@ module.exports = [
     "currency": "Guarani",
     "countries": [
       "Paraguay"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "QAR",
@@ -1113,7 +1279,8 @@ module.exports = [
     "currency": "Qatari Rial",
     "countries": [
       "Qatar"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "RON",
@@ -1122,7 +1289,8 @@ module.exports = [
     "currency": "Romanian Leu",
     "countries": [
       "Romania"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "RSD",
@@ -1131,7 +1299,8 @@ module.exports = [
     "currency": "Serbian Dinar",
     "countries": [
       "Serbia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "RUB",
@@ -1140,7 +1309,8 @@ module.exports = [
     "currency": "Russian Ruble",
     "countries": [
       "Russian Federation (The)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "RWF",
@@ -1149,7 +1319,8 @@ module.exports = [
     "currency": "Rwanda Franc",
     "countries": [
       "Rwanda"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SAR",
@@ -1158,7 +1329,8 @@ module.exports = [
     "currency": "Saudi Riyal",
     "countries": [
       "Saudi Arabia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SBD",
@@ -1167,7 +1339,8 @@ module.exports = [
     "currency": "Solomon Islands Dollar",
     "countries": [
       "Solomon Islands"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SCR",
@@ -1176,7 +1349,8 @@ module.exports = [
     "currency": "Seychelles Rupee",
     "countries": [
       "Seychelles"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SDG",
@@ -1185,7 +1359,8 @@ module.exports = [
     "currency": "Sudanese Pound",
     "countries": [
       "Sudan (The)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SEK",
@@ -1194,7 +1369,8 @@ module.exports = [
     "currency": "Swedish Krona",
     "countries": [
       "Sweden"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SGD",
@@ -1203,7 +1379,8 @@ module.exports = [
     "currency": "Singapore Dollar",
     "countries": [
       "Singapore"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SHP",
@@ -1212,7 +1389,8 @@ module.exports = [
     "currency": "Saint Helena Pound",
     "countries": [
       "Saint Helena, Ascension and Tristan Da Cunha"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SLE",
@@ -1221,7 +1399,18 @@ module.exports = [
     "currency": "Leone",
     "countries": [
       "Sierra Leone"
-    ]
+    ],
+    "active": true
+  },
+  {
+    "code": "SLL",
+    "number": "694",
+    "digits": 2,
+    "currency": "Leone",
+    "countries": [
+      "Sierra Leone"
+    ],
+    "active": false
   },
   {
     "code": "SOS",
@@ -1230,7 +1419,8 @@ module.exports = [
     "currency": "Somali Shilling",
     "countries": [
       "Somalia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SRD",
@@ -1239,7 +1429,8 @@ module.exports = [
     "currency": "Surinam Dollar",
     "countries": [
       "Suriname"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SSP",
@@ -1248,7 +1439,18 @@ module.exports = [
     "currency": "South Sudanese Pound",
     "countries": [
       "South Sudan"
-    ]
+    ],
+    "active": true
+  },
+  {
+    "code": "STD",
+    "number": "678",
+    "digits": 0,
+    "currency": "São Tomé and Príncipe dobra",
+    "countries": [
+      "são tomé and príncipe"
+    ],
+    "active": false
   },
   {
     "code": "STN",
@@ -1257,7 +1459,8 @@ module.exports = [
     "currency": "Dobra",
     "countries": [
       "Sao Tome and Principe"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SVC",
@@ -1266,7 +1469,8 @@ module.exports = [
     "currency": "El Salvador Colon",
     "countries": [
       "El Salvador"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SYP",
@@ -1275,7 +1479,8 @@ module.exports = [
     "currency": "Syrian Pound",
     "countries": [
       "Syrian Arab Republic"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "SZL",
@@ -1284,7 +1489,8 @@ module.exports = [
     "currency": "Lilangeni",
     "countries": [
       "Eswatini"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "THB",
@@ -1293,7 +1499,8 @@ module.exports = [
     "currency": "Baht",
     "countries": [
       "Thailand"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "TJS",
@@ -1302,7 +1509,8 @@ module.exports = [
     "currency": "Somoni",
     "countries": [
       "Tajikistan"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "TMT",
@@ -1311,7 +1519,8 @@ module.exports = [
     "currency": "Turkmenistan New Manat",
     "countries": [
       "Turkmenistan"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "TND",
@@ -1320,7 +1529,8 @@ module.exports = [
     "currency": "Tunisian Dinar",
     "countries": [
       "Tunisia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "TOP",
@@ -1329,7 +1539,8 @@ module.exports = [
     "currency": "Pa’anga",
     "countries": [
       "Tonga"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "TRY",
@@ -1338,7 +1549,8 @@ module.exports = [
     "currency": "Turkish Lira",
     "countries": [
       "Türki̇ye"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "TTD",
@@ -1347,7 +1559,8 @@ module.exports = [
     "currency": "Trinidad and Tobago Dollar",
     "countries": [
       "Trinidad and Tobago"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "TWD",
@@ -1356,7 +1569,8 @@ module.exports = [
     "currency": "New Taiwan Dollar",
     "countries": [
       "Taiwan (Province of China)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "TZS",
@@ -1365,7 +1579,8 @@ module.exports = [
     "currency": "Tanzanian Shilling",
     "countries": [
       "Tanzania, United Republic Of"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "UAH",
@@ -1374,7 +1589,8 @@ module.exports = [
     "currency": "Hryvnia",
     "countries": [
       "Ukraine"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "UGX",
@@ -1383,7 +1599,8 @@ module.exports = [
     "currency": "Uganda Shilling",
     "countries": [
       "Uganda"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "USD",
@@ -1410,7 +1627,8 @@ module.exports = [
       "United States of America (The)",
       "Virgin Islands (British)",
       "Virgin Islands (u.s.)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "USN",
@@ -1419,7 +1637,18 @@ module.exports = [
     "currency": "US Dollar (Next day)",
     "countries": [
       "United States of America (The)"
-    ]
+    ],
+    "active": true
+  },
+  {
+    "code": "USS",
+    "number": "998",
+    "digits": 2,
+    "currency": "United States dollar",
+    "countries": [
+      "united states"
+    ],
+    "active": false
   },
   {
     "code": "UYI",
@@ -1428,7 +1657,8 @@ module.exports = [
     "currency": "Uruguay Peso en Unidades Indexadas (UI)",
     "countries": [
       "Uruguay"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "UYU",
@@ -1437,7 +1667,8 @@ module.exports = [
     "currency": "Peso Uruguayo",
     "countries": [
       "Uruguay"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "UYW",
@@ -1446,7 +1677,8 @@ module.exports = [
     "currency": "Unidad Previsional",
     "countries": [
       "Uruguay"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "UZS",
@@ -1455,7 +1687,8 @@ module.exports = [
     "currency": "Uzbekistan Sum",
     "countries": [
       "Uzbekistan"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "VED",
@@ -1464,7 +1697,18 @@ module.exports = [
     "currency": "Bolívar Soberano",
     "countries": [
       "Venezuela (Bolivarian Republic Of)"
-    ]
+    ],
+    "active": true
+  },
+  {
+    "code": "VEF",
+    "number": "937",
+    "digits": 2,
+    "currency": "Bolívar",
+    "countries": [
+      "Venezuela (Bolivarian Republic Of)"
+    ],
+    "active": false
   },
   {
     "code": "VES",
@@ -1473,7 +1717,8 @@ module.exports = [
     "currency": "Bolívar Soberano",
     "countries": [
       "Venezuela (Bolivarian Republic Of)"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "VND",
@@ -1482,7 +1727,8 @@ module.exports = [
     "currency": "Dong",
     "countries": [
       "Viet Nam"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "VUV",
@@ -1491,7 +1737,8 @@ module.exports = [
     "currency": "Vatu",
     "countries": [
       "Vanuatu"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "WST",
@@ -1500,7 +1747,8 @@ module.exports = [
     "currency": "Tala",
     "countries": [
       "Samoa"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XAF",
@@ -1514,7 +1762,8 @@ module.exports = [
       "Congo (The)",
       "Equatorial Guinea",
       "Gabon"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XAG",
@@ -1523,7 +1772,8 @@ module.exports = [
     "currency": "Silver",
     "countries": [
       "Zz11_silver"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XAU",
@@ -1532,7 +1782,8 @@ module.exports = [
     "currency": "Gold",
     "countries": [
       "Zz08_gold"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XBA",
@@ -1541,7 +1792,8 @@ module.exports = [
     "currency": "Bond Markets Unit European Composite Unit (EURCO)",
     "countries": [
       "Zz01_bond Markets Unit European_eurco"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XBB",
@@ -1550,7 +1802,8 @@ module.exports = [
     "currency": "Bond Markets Unit European Monetary Unit (E.M.U.-6)",
     "countries": [
       "Zz02_bond Markets Unit European_emu-6"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XBC",
@@ -1559,7 +1812,8 @@ module.exports = [
     "currency": "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)",
     "countries": [
       "Zz03_bond Markets Unit European_eua-9"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XBD",
@@ -1568,7 +1822,8 @@ module.exports = [
     "currency": "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)",
     "countries": [
       "Zz04_bond Markets Unit European_eua-17"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XCD",
@@ -1584,7 +1839,8 @@ module.exports = [
       "Saint Kitts and Nevis",
       "Saint Lucia",
       "Saint Vincent and the Grenadines"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XDR",
@@ -1593,7 +1849,8 @@ module.exports = [
     "currency": "SDR (Special Drawing Right)",
     "countries": [
       "International Monetary Fund (Imf) "
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XOF",
@@ -1609,7 +1866,8 @@ module.exports = [
       "Niger (The)",
       "Senegal",
       "Togo"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XPD",
@@ -1618,7 +1876,8 @@ module.exports = [
     "currency": "Palladium",
     "countries": [
       "Zz09_palladium"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XPF",
@@ -1629,7 +1888,8 @@ module.exports = [
       "French Polynesia",
       "New Caledonia",
       "Wallis and Futuna"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XPT",
@@ -1638,7 +1898,8 @@ module.exports = [
     "currency": "Platinum",
     "countries": [
       "Zz10_platinum"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XSU",
@@ -1647,7 +1908,8 @@ module.exports = [
     "currency": "Sucre",
     "countries": [
       "Sistema Unitario De Compensacion Regional De Pagos \"Sucre\""
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XTS",
@@ -1656,7 +1918,8 @@ module.exports = [
     "currency": "Codes specifically reserved for testing purposes",
     "countries": [
       "Zz06_testing_code"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XUA",
@@ -1665,7 +1928,8 @@ module.exports = [
     "currency": "ADB Unit of Account",
     "countries": [
       "Member Countries of the African Development Bank Group"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "XXX",
@@ -1674,7 +1938,8 @@ module.exports = [
     "currency": "The codes assigned for transactions where no currency is involved",
     "countries": [
       "Zz07_no_currency"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "YER",
@@ -1683,7 +1948,8 @@ module.exports = [
     "currency": "Yemeni Rial",
     "countries": [
       "Yemen"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "ZAR",
@@ -1694,7 +1960,8 @@ module.exports = [
       "Lesotho",
       "Namibia",
       "South Africa"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "ZMW",
@@ -1703,7 +1970,8 @@ module.exports = [
     "currency": "Zambian Kwacha",
     "countries": [
       "Zambia"
-    ]
+    ],
+    "active": true
   },
   {
     "code": "ZWG",
@@ -1712,6 +1980,17 @@ module.exports = [
     "currency": "Zimbabwe Gold",
     "countries": [
       "Zimbabwe"
-    ]
+    ],
+    "active": true
+  },
+  {
+    "code": "ZWL",
+    "number": "932",
+    "digits": 2,
+    "currency": "Zimbabwe Dollar",
+    "countries": [
+      "Zimbabwe"
+    ],
+    "active": false
   }
 ];
