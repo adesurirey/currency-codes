@@ -1,7 +1,7 @@
 /*
 	Follows ISO 4217, https://www.iso.org/iso-4217-currency-codes.html
 	See https://www.currency-iso.org/dam/downloads/lists/list_one.xml
-	Data last updated 2024-06-25
+	Data last updated 2025-05-12
 */
 
 module.exports = [
@@ -54,7 +54,7 @@ module.exports = [
       "Curaçao",
       "Sint Maarten (Dutch Part)"
     ],
-    "active": true
+    "active": false
   },
   {
     "code": "AOA",
@@ -402,7 +402,7 @@ module.exports = [
     "countries": [
       "Cuba"
     ],
-    "active": true
+    "active": false
   },
   {
     "code": "CUP",
@@ -1751,6 +1751,16 @@ module.exports = [
     "active": true
   },
   {
+    "code": "XAD",
+    "number": "396",
+    "digits": 2,
+    "currency": "Arab Accounting Dinar",
+    "countries": [
+      "Arab Monetary Fund"
+    ],
+    "active": true
+  },
+  {
     "code": "XAF",
     "number": "950",
     "digits": 0,
@@ -1839,6 +1849,17 @@ module.exports = [
       "Saint Kitts and Nevis",
       "Saint Lucia",
       "Saint Vincent and the Grenadines"
+    ],
+    "active": true
+  },
+  {
+    "code": "XCG",
+    "number": "532",
+    "digits": 2,
+    "currency": "Caribbean Guilder",
+    "countries": [
+      "Curaçao",
+      "Sint Maarten (Dutch Part)"
     ],
     "active": true
   },
